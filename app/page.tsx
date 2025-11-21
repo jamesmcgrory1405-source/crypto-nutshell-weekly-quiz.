@@ -21,63 +21,78 @@ const CURRENT_QUIZ: Quiz = {
   title: "Last Week on Crypto Nutshell",
   description:
     "Think you paid attention this week? Let’s find out.",
-  questions: [
-    {
-      question:
-        "In Crypto Nutshell #753, JPMorgan estimated a new Bitcoin production cost that institutions are watching closely as a potential floor. Roughly what level did they peg this cost at after the latest difficulty increase?",
-      options: ["$75,000", "$94,000", "$120,000", "$150,000"],
-      correctIndex: 1,
-      explanation:
-        "JPMorgan put Bitcoin’s production cost at roughly $94,000 after rising network difficulty. That figure has become a key reference for institutions looking at potential downside support.",
-      sourceLabel: "#753 – Is it over?"
-    },
-    {
-      question:
-        "In Crypto Nutshell #752, Tom Lee argued that $63,000 Ethereum is not crazy if a certain amount of global assets are tokenized on Ethereum. Roughly how much value did he say would need to be tokenized for ETH to reach that level?",
-      options: ["$700 billion", "$3 trillion", "$7 trillion", "$30 trillion"],
-      correctIndex: 2,
-      explanation:
-        "Tom Lee’s back-of-the-envelope math suggested that if around $7 trillion of global assets migrate onto Ethereum, it could justify an ETH price in the $63,000 range.",
-      sourceLabel: "#752 – $63,000 Ethereum isn’t crazy"
-    },
-    {
-      question:
-        "In Crypto Nutshell #751, Sygnum’s institutional survey showed a shift in why institutions hold crypto. What was cited as the primary reason most institutions now allocate to digital assets?",
-      options: [
-        "Short term speculative gains",
-        "Regulatory arbitrage opportunities",
-        "Portfolio diversification",
-        "Access to DeFi yields"
-      ],
-      correctIndex: 2,
-      explanation:
-        "According to Sygnum’s report, diversification overtook speculation as the top reason institutions allocate to crypto. It is now viewed as a strategic portfolio component rather than a pure punt.",
-      sourceLabel: "#751 – Diversification, not hype"
-    },
-    {
-      question:
-        "In Crypto Nutshell #750, the Senate Agriculture Committee’s draft bill was described as a key step toward US crypto market structure. Which agency would receive expanded authority over spot digital commodities like Bitcoin under this proposal?",
-      options: [
-        "The Securities and Exchange Commission (SEC)",
-        "The Commodity Futures Trading Commission (CFTC)",
-        "The Federal Reserve",
-        "The Office of the Comptroller of the Currency (OCC)"
-      ],
-      correctIndex: 1,
-      explanation:
-        "The draft bill gives the CFTC primary authority over spot digital commodities such as Bitcoin, while directing it to coordinate with the SEC on joint rulemaking. It is a major move toward clearer market structure.",
-      sourceLabel: "#750 – Regulatory clarity"
-    },
-    {
-      question:
-        "In Crypto Nutshell #749, the Long and Short Term Holder Threshold breakdown showed how much Bitcoin is in strong hands. Roughly what percentage of total BTC supply was held by long term holders (coins older than 155 days)?",
-      options: ["45% of supply", "60% of supply", "72% of supply", "85% of supply"],
-      correctIndex: 2,
-      explanation:
-        "The newsletter highlighted that about 14.38 million BTC, or roughly 72 percent of supply, sits with long term holders. Even after heavy distribution, the base of committed holders remains very high.",
-      sourceLabel: "#749 – Long term holders unloading"
-    }
-  ]
+    questions: [
+      {
+        question:
+          "Why did Michael Saylor say the four year Bitcoin cycle matters less today?",
+        options: [
+          "Because the post halving supply cut is tiny compared to daily trading volume",
+          "Because halvings have been paused until fees replace all block rewards",
+          "Because miner revenue is now only from transaction fees",
+          "Because ETFs cancel out all halving effects"
+        ],
+        correctIndex: 0,
+        explanation:
+          "After the next halving, only about 225 BTC per day are removed from new supply, roughly 20 million dollars of buying, versus around 100 billion dollars in daily trading volume. That makes macro conditions and institutional flows far more important than the halving cycle.",
+        sourceLabel: "#754 – Saylor: I never believed in 4-year cycle"
+      },
+      {
+        question:
+          "Roughly what share of all Bitcoin had not moved for more than six months in the latest HODL Waves breakdown?",
+        options: [
+          "About 40 percent",
+          "About 50 percent",
+          "About 70 percent",
+          "About 90 percent"
+        ],
+        correctIndex: 2,
+        explanation:
+          "Around 69.65 percent of all BTC has not moved in over six months, only a small drop from two weeks earlier, signalling a very strong long term holder base.",
+        sourceLabel: "#754 – Strengthening the base"
+      },
+      {
+        question:
+          "Which cohort did VanEck’s ChainCheck report identify as doing most of the recent Bitcoin selling?",
+        options: [
+          "Coins that have not moved for more than 10 years",
+          "Miners selling newly mined BTC",
+          "Mid cycle holders whose coins last moved within the past five years",
+          "Only short term traders who bought in the last month"
+        ],
+        correctIndex: 2,
+        explanation:
+          "Most of the selling has come from coins that last moved in the past three to five years, while coins older than five years keep growing as a group and smaller whales continue to increase their balances.",
+        sourceLabel: "#758 – Who is selling?"
+      },
+      {
+        question:
+          "Roughly what share of Ethereum’s total supply was still on exchanges?",
+        options: [
+          "About 5 percent",
+          "About 10.79 percent",
+          "About 25 percent",
+          "About 40 percent"
+        ],
+        correctIndex: 1,
+        explanation:
+          "Only 13.09 million ETH remain on exchanges, which is 10.79 percent of the total supply, after 5.84 million ETH have been withdrawn since January. That points to a tightening liquid supply and a potential supply squeeze.",
+        sourceLabel: "#757 – Squeeze"
+      },
+      {
+        question:
+          "How big was Harvard’s Bitcoin ETF position compared to its total endowment?",
+        options: [
+          "Less than 0.1 percent",
+          "About 1 percent",
+          "About 5 percent",
+          "About 10 percent"
+        ],
+        correctIndex: 1,
+        explanation:
+          "Harvard holds roughly 442.8 million dollars of Bitcoin ETFs, mainly IBIT, which is about 1 percent of its endowment and makes Bitcoin a meaningful but still early allocation.",
+        sourceLabel: "#758 – Harvard bought the dip"
+      }
+    ]
 }
 
 type RankInfo = {
