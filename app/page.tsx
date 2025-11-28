@@ -19,80 +19,54 @@ type Quiz = {
 
 const CURRENT_QUIZ: Quiz = {
   title: "Last Week on Crypto Nutshell",
-  description:
-    "Think you paid attention this week? Let’s find out.",
-    questions: [
-      {
-        question:
-          "Why did Michael Saylor say the four year Bitcoin cycle matters less today?",
-        options: [
-          "Because the post halving supply cut is tiny compared to daily trading volume",
-          "Because halvings have been paused until fees replace all block rewards",
-          "Because miner revenue is now only from transaction fees",
-          "Because ETFs cancel out all halving effects"
-        ],
-        correctIndex: 0,
-        explanation:
-          "After the next halving, only about 225 BTC per day are removed from new supply, roughly 20 million dollars of buying, versus around 100 billion dollars in daily trading volume. That makes macro conditions and institutional flows far more important than the halving cycle.",
-        sourceLabel: "#754 – Saylor: I never believed in 4-year cycle"
-      },
-      {
-        question:
-          "Roughly what share of all Bitcoin had not moved for more than six months in the latest HODL Waves breakdown?",
-        options: [
-          "About 40 percent",
-          "About 50 percent",
-          "About 70 percent",
-          "About 90 percent"
-        ],
-        correctIndex: 2,
-        explanation:
-          "Around 69.65 percent of all BTC has not moved in over six months, only a small drop from two weeks earlier, signalling a very strong long term holder base.",
-        sourceLabel: "#754 – Strengthening the base"
-      },
-      {
-        question:
-          "Which cohort did VanEck’s ChainCheck report identify as doing most of the recent Bitcoin selling?",
-        options: [
-          "Coins that have not moved for more than 10 years",
-          "Miners selling newly mined BTC",
-          "Mid cycle holders whose coins last moved within the past five years",
-          "Only short term traders who bought in the last month"
-        ],
-        correctIndex: 2,
-        explanation:
-          "Most of the selling has come from coins that last moved in the past three to five years, while coins older than five years keep growing as a group and smaller whales continue to increase their balances.",
-        sourceLabel: "#758 – Who is selling?"
-      },
-      {
-        question:
-          "Roughly what share of Ethereum’s total supply was still on exchanges?",
-        options: [
-          "About 5 percent",
-          "About 10.79 percent",
-          "About 25 percent",
-          "About 40 percent"
-        ],
-        correctIndex: 1,
-        explanation:
-          "Only 13.09 million ETH remain on exchanges, which is 10.79 percent of the total supply, after 5.84 million ETH have been withdrawn since January. That points to a tightening liquid supply and a potential supply squeeze.",
-        sourceLabel: "#757 – Squeeze"
-      },
-      {
-        question:
-          "How big was Harvard’s Bitcoin ETF position compared to its total endowment?",
-        options: [
-          "Less than 0.1 percent",
-          "About 1 percent",
-          "About 5 percent",
-          "About 10 percent"
-        ],
-        correctIndex: 1,
-        explanation:
-          "Harvard holds roughly 442.8 million dollars of Bitcoin ETFs, mainly IBIT, which is about 1 percent of its endowment and makes Bitcoin a meaningful but still early allocation.",
-        sourceLabel: "#758 – Harvard bought the dip"
-      }
-    ]
+  description: "Think you paid attention this week? Let’s find out.",
+  questions: [
+    {
+      question:
+        "Roughly how much in potential outflows could Strategy face from MSCI-linked products alone if it is removed from those indices?",
+      options: ["$1.0 billion", "$2.8 billion", "$5.0 billion", "$11.6 billion"],
+      correctIndex: 1,
+      explanation:
+        "JPMorgan estimates Strategy could see about $2.8 billion in outflows from MSCI-related products if it is kicked out of those indices.",
+      sourceLabel: "#759 – Bitcoin vs TradFi"
+    },
+    {
+      question:
+        "What was the size of Texas’s first allocation into BlackRock’s IBIT spot Bitcoin ETF for its Strategic Bitcoin Reserve?",
+      options: ["$1 million", "$3 million", "$5 million", "$10 million"],
+      correctIndex: 2,
+      explanation:
+        "Texas opened its Strategic Bitcoin Reserve with a $5 million purchase of IBIT, as the first step toward a planned $10 million allocation.",
+      sourceLabel: "#761 – Texas buys the dip"
+    },
+    {
+      question:
+        "How many new crypto ETFs do Bloomberg’s ETF analysts expect could launch over the next six months?",
+      options: ["Around 20", "Around 50", "More than 100", "Over 300"],
+      correctIndex: 2,
+      explanation:
+        "Bloomberg’s ETF analysts now expect more than 100 new crypto ETFs to launch over the next six months as issuers rush to secure tickers.",
+      sourceLabel: "#760 – Here come the altcoins"
+    },
+    {
+      question:
+        "Roughly what percentage of the total Ethereum supply is currently staked?",
+      options: ["15%", "22%", "29%", "40%"],
+      correctIndex: 2,
+      explanation:
+        "About 35.68 million ETH are staked, which is 29.41 percent of the total supply, effectively removing almost one third of ETH from day-to-day circulation.",
+      sourceLabel: "#762 – Locked up"
+    },
+    {
+      question:
+        "Approximately how many Bitcoin addresses currently hold a balance greater than zero?",
+      options: ["25 million", "40 million", "54.7 million", "80 million"],
+      correctIndex: 2,
+      explanation:
+        "There are 54,744,426 addresses holding some Bitcoin, up more than 2.2 million so far in 2025 despite the recent correction.",
+      sourceLabel: "#763 – Stronger"
+    }
+  ]
 }
 
 type RankInfo = {
