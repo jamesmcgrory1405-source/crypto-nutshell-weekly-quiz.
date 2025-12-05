@@ -18,53 +18,78 @@ type Quiz = {
 }
 
 const CURRENT_QUIZ: Quiz = {
-  title: "Last Week on Crypto Nutshell",
-  description: "Think you paid attention this week? Let’s find out.",
+  title: "This Week on Crypto Nutshell",
+  description: "Think you paid attention this week? Let us find out.",
   questions: [
     {
       question:
-        "Roughly how much in potential outflows could Strategy face from MSCI-linked products alone if it is removed from those indices?",
-      options: ["$1.0 billion", "$2.8 billion", "$5.0 billion", "$11.6 billion"],
+        "Under what conditions did Strategy say it might sell some of its Bitcoin holdings?",
+      options: [
+        "If Bitcoin falls below $50,000 and interest rates rise",
+        "If MicroStrategy is added to the S&P 500 and demand for shares spikes",
+        "If MSTR trades below net asset value and the company cannot access fresh capital",
+        "If Bitcoin trades above $200,000 for more than 30 days"
+      ],
+      correctIndex: 2,
+      explanation:
+        "Strategy's CEO said selling BTC would only be a last resort if MSTR trades below net asset value and access to fresh capital dries up, making dilution worse than selling coins.",
+      sourceLabel: "#764 - Strategy may sell BTC?"
+    },
+    {
+      question:
+        "What key change did Vanguard announce for its clients regarding crypto?",
+      options: [
+        "It now allows trading of ETFs and mutual funds that primarily hold crypto such as BTC, ETH, XRP and SOL",
+        "It launched an in house Bitcoin ETF only for institutions",
+        "It enabled direct self custody of Bitcoin inside Vanguard accounts",
+        "It will only list Bitcoin futures contracts for professional traders"
+      ],
+      correctIndex: 0,
+      explanation:
+        "Vanguard is now letting clients trade ETFs and mutual funds that primarily hold cryptocurrencies like Bitcoin, Ethereum, XRP and Solana on its brokerage platform.",
+      sourceLabel: "#765 - Vanguard pivots"
+    },
+    {
+      question:
+        "What crypto allocation range did Bank of America say could be appropriate for some wealth clients?",
+      options: [
+        "5 to 10 percent",
+        "0 to 1 percent",
+        "10 to 20 percent",
+        "1 to 4 percent"
+      ],
+      correctIndex: 3,
+      explanation:
+        "Bank of America said that for investors comfortable with innovation and volatility, a modest 1 to 4 percent allocation to digital assets could be appropriate.",
+      sourceLabel: "#766 - Another one?"
+    },
+    {
+      question:
+        "What is Charles Schwab planning to roll out across its platforms in early 2026?",
+      options: [
+        "Only Bitcoin futures trading with high leverage",
+        "A closed end Bitcoin trust with a high premium",
+        "Spot trading for Bitcoin and Ethereum alongside stocks and ETFs",
+        "Access only to crypto mining stocks, not digital assets"
+      ],
+      correctIndex: 2,
+      explanation:
+        "Schwab plans to offer spot Bitcoin and Ethereum trading inside the same platforms where clients already trade stocks, bonds and ETFs.",
+      sourceLabel: "#767 - Wall Street turns up the heat"
+    },
+    {
+      question:
+        "Why did Larry Fink say sovereign wealth funds are accumulating Bitcoin on major dips?",
+      options: [
+        "They are speculating on short term ETF arbitrage opportunities",
+        "They see Bitcoin as an asset of fear and a hedge against inflation, debt and policy risk",
+        "They are required by regulation to hold a fixed percentage of reserves in crypto",
+        "They want to use Bitcoin as a payments network for everyday transactions"
+      ],
       correctIndex: 1,
       explanation:
-        "JPMorgan estimates Strategy could see about $2.8 billion in outflows from MSCI-related products if it is kicked out of those indices.",
-      sourceLabel: "#759 – Bitcoin vs TradFi"
-    },
-    {
-      question:
-        "What was the size of Texas’s first allocation into BlackRock’s IBIT spot Bitcoin ETF for its Strategic Bitcoin Reserve?",
-      options: ["$1 million", "$3 million", "$5 million", "$10 million"],
-      correctIndex: 2,
-      explanation:
-        "Texas opened its Strategic Bitcoin Reserve with a $5 million purchase of IBIT, as the first step toward a planned $10 million allocation.",
-      sourceLabel: "#761 – Texas buys the dip"
-    },
-    {
-      question:
-        "How many new crypto ETFs do Bloomberg’s ETF analysts expect could launch over the next six months?",
-      options: ["Around 20", "Around 50", "More than 100", "Over 300"],
-      correctIndex: 2,
-      explanation:
-        "Bloomberg’s ETF analysts now expect more than 100 new crypto ETFs to launch over the next six months as issuers rush to secure tickers.",
-      sourceLabel: "#760 – Here come the altcoins"
-    },
-    {
-      question:
-        "Roughly what percentage of the total Ethereum supply is currently staked?",
-      options: ["15%", "22%", "29%", "40%"],
-      correctIndex: 2,
-      explanation:
-        "About 35.68 million ETH are staked, which is 29.41 percent of the total supply, effectively removing almost one third of ETH from day-to-day circulation.",
-      sourceLabel: "#762 – Locked up"
-    },
-    {
-      question:
-        "Approximately how many Bitcoin addresses currently hold a balance greater than zero?",
-      options: ["25 million", "40 million", "54.7 million", "80 million"],
-      correctIndex: 2,
-      explanation:
-        "There are 54,744,426 addresses holding some Bitcoin, up more than 2.2 million so far in 2025 despite the recent correction.",
-      sourceLabel: "#763 – Stronger"
+        "Larry Fink framed Bitcoin as an asset of fear and a long term hedge against sovereign debt, inflation and currency debasement, which is why sovereign funds are buying the dips.",
+      sourceLabel: "#768 - The smart money moves"
     }
   ]
 }
