@@ -18,7 +18,7 @@ type Quiz = {
 }
 
 const CURRENT_QUIZ: Quiz = {
-  title: "Last Week on Crypto Nutshell",
+  title: "Last on Crypto Nutshell",
   description: "Think you paid attention this week? Let’s find out.",
   questions: [
     {
