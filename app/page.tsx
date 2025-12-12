@@ -18,81 +18,71 @@ type Quiz = {
 }
 
 const CURRENT_QUIZ: Quiz = {
-  title: "This Week on Crypto Nutshell",
-  description: "Think you paid attention this week? Let us find out.",
+  title: "Last Week on Crypto Nutshell",
+  description: "Think you paid attention this week? Let’s find out.",
   questions: [
     {
       question:
-        "Under what conditions did Strategy say it might sell some of its Bitcoin holdings?",
-      options: [
-        "If Bitcoin falls below $50,000 and interest rates rise",
-        "If MicroStrategy is added to the S&P 500 and demand for shares spikes",
-        "If MSTR trades below net asset value and the company cannot access fresh capital",
-        "If Bitcoin trades above $200,000 for more than 30 days"
-      ],
+        "Roughly what share of all Bitcoin is currently in the hands of short term holders after the October 10 liquidation event?",
+      options: ["24.15%", "28.50%", "34.15%", "40.00%"],
       correctIndex: 2,
       explanation:
-        "Strategy's CEO said selling BTC would only be a last resort if MSTR trades below net asset value and access to fresh capital dries up, making dilution worse than selling coins.",
-      sourceLabel: "#764 - Strategy may sell BTC?"
+        "The latest HODL Waves breakdown shows that about 34.15% of all Bitcoin is held by short term holders, up roughly 6.55 percentage points since the October 10 liquidation.",
+      sourceLabel: "#769 – Transfer"
     },
     {
       question:
-        "What key change did Vanguard announce for its clients regarding crypto?",
-      options: [
-        "It now allows trading of ETFs and mutual funds that primarily hold crypto such as BTC, ETH, XRP and SOL",
-        "It launched an in house Bitcoin ETF only for institutions",
-        "It enabled direct self custody of Bitcoin inside Vanguard accounts",
-        "It will only list Bitcoin futures contracts for professional traders"
-      ],
-      correctIndex: 0,
+        "How much did digital asset funds pull in during the most recent week of inflows highlighted in the newsletter?",
+      options: ["$352 million", "$716 million", "$1.06 billion", "$5.7 billion"],
+      correctIndex: 1,
       explanation:
-        "Vanguard is now letting clients trade ETFs and mutual funds that primarily hold cryptocurrencies like Bitcoin, Ethereum, XRP and Solana on its brokerage platform.",
-      sourceLabel: "#765 - Vanguard pivots"
+        "Digital asset funds saw a second consecutive week of inflows, with $716 million entering the space and total assets under management rising about 7.9% off the November lows.",
+      sourceLabel: "#770 – Streak is building"
     },
     {
       question:
-        "What crypto allocation range did Bank of America say could be appropriate for some wealth clients?",
+        "After the latest Fed decision covered in the newsletter, what target range were US interest rates cut to?",
       options: [
-        "5 to 10 percent",
-        "0 to 1 percent",
-        "10 to 20 percent",
-        "1 to 4 percent"
+        "0.25%–0.50%",
+        "1.50%–1.75%",
+        "2.00%–2.25%",
+        "3.50%–3.75%"
       ],
       correctIndex: 3,
       explanation:
-        "Bank of America said that for investors comfortable with innovation and volatility, a modest 1 to 4 percent allocation to digital assets could be appropriate.",
-      sourceLabel: "#766 - Another one?"
+        "The Fed cut rates by 0.25 percentage points to a target range of 3.50%–3.75%, then paired that with a plan to buy $40 billion in Treasury bills starting December 12.",
+      sourceLabel: "#772 – And so it begins"
     },
     {
       question:
-        "What is Charles Schwab planning to roll out across its platforms in early 2026?",
+        "How did Harvard’s latest allocation size to Bitcoin compare to its allocation to gold in the filing discussed?",
       options: [
-        "Only Bitcoin futures trading with high leverage",
-        "A closed end Bitcoin trust with a high premium",
-        "Spot trading for Bitcoin and Ethereum alongside stocks and ETFs",
-        "Access only to crypto mining stocks, not digital assets"
+        "Twice as much in Bitcoin as gold",
+        "Roughly equal amounts",
+        "Twice as much in gold as Bitcoin",
+        "Ten times more in Bitcoin than gold"
+      ],
+      correctIndex: 0,
+      explanation:
+        "Harvard’s Q3 positioning showed a clear tilt toward Bitcoin over gold, with roughly double the allocation size to BTC compared to gold as a debasement hedge.",
+      sourceLabel: "#772 – Harvard picks Bitcoin over gold"
+    },
+    {
+      question:
+        "Approximately how many wallets now hold at least some Bitcoin according to the latest on chain data?",
+      options: [
+        "Around 25 million",
+        "Over 80 million",
+        "Roughly 55.5 million",
+        "About 10 million"
       ],
       correctIndex: 2,
       explanation:
-        "Schwab plans to offer spot Bitcoin and Ethereum trading inside the same platforms where clients already trade stocks, bonds and ETFs.",
-      sourceLabel: "#767 - Wall Street turns up the heat"
-    },
-    {
-      question:
-        "Why did Larry Fink say sovereign wealth funds are accumulating Bitcoin on major dips?",
-      options: [
-        "They are speculating on short term ETF arbitrage opportunities",
-        "They see Bitcoin as an asset of fear and a hedge against inflation, debt and policy risk",
-        "They are required by regulation to hold a fixed percentage of reserves in crypto",
-        "They want to use Bitcoin as a payments network for everyday transactions"
-      ],
-      correctIndex: 1,
-      explanation:
-        "Larry Fink framed Bitcoin as an asset of fear and a long term hedge against sovereign debt, inflation and currency debasement, which is why sovereign funds are buying the dips.",
-      sourceLabel: "#768 - The smart money moves"
+        "The latest address data shows about 55.48 million wallets holding Bitcoin, up around 190,000 in two weeks and about 2.36 million since the start of 2025.",
+      sourceLabel: "#773 – Only up"
     }
   ]
-}
+};
 
 type RankInfo = {
   label: string
