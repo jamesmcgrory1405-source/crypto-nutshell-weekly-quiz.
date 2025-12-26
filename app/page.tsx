@@ -23,63 +23,48 @@ const CURRENT_QUIZ: Quiz = {
   questions: [
     {
       question:
-        "Roughly what share of all Bitcoin is currently in the hands of short term holders after the October 10 liquidation event?",
-      options: ["24.15%", "28.50%", "34.15%", "40.00%"],
-      correctIndex: 2,
-      explanation:
-        "The latest HODL Waves breakdown shows that about 34.15% of all Bitcoin is held by short term holders, up roughly 6.55 percentage points since the October 10 liquidation.",
-      sourceLabel: "#769 – Transfer"
-    },
-    {
-      question:
-        "How much did digital asset funds pull in during the most recent week of inflows highlighted in the newsletter?",
-      options: ["$352 million", "$716 million", "$1.06 billion", "$5.7 billion"],
-      correctIndex: 1,
-      explanation:
-        "Digital asset funds saw a second consecutive week of inflows, with $716 million entering the space and total assets under management rising about 7.9% off the November lows.",
-      sourceLabel: "#770 – Streak is building"
-    },
-    {
-      question:
-        "After the latest Fed decision covered in the newsletter, what target range were US interest rates cut to?",
-      options: [
-        "0.25%–0.50%",
-        "1.50%–1.75%",
-        "2.00%–2.25%",
-        "3.50%–3.75%"
-      ],
-      correctIndex: 3,
-      explanation:
-        "The Fed cut rates by 0.25 percentage points to a target range of 3.50%–3.75%, then paired that with a plan to buy $40 billion in Treasury bills starting December 12.",
-      sourceLabel: "#772 – And so it begins"
-    },
-    {
-      question:
-        "How did Harvard’s latest allocation size to Bitcoin compare to its allocation to gold in the filing discussed?",
-      options: [
-        "Twice as much in Bitcoin as gold",
-        "Roughly equal amounts",
-        "Twice as much in gold as Bitcoin",
-        "Ten times more in Bitcoin than gold"
-      ],
+        "Roughly how much in net inflows did BlackRock’s IBIT Bitcoin ETF pull in during 2025 despite finishing the year with a negative return?",
+      options: ["$25.4 billion", "$18.7 billion", "$40.0 billion", "$10.2 billion"],
       correctIndex: 0,
       explanation:
-        "Harvard’s Q3 positioning showed a clear tilt toward Bitcoin over gold, with roughly double the allocation size to BTC compared to gold as a debasement hedge.",
-      sourceLabel: "#772 – Harvard picks Bitcoin over gold"
+        "IBIT ranked sixth for all U.S. ETFs in 2025, pulling in about $25.4 billion of inflows even though it was down roughly 9.6 percent on the year.",
+      sourceLabel: "#779 – This is strange"
     },
     {
       question:
-        "Approximately how many wallets now hold at least some Bitcoin according to the latest on chain data?",
-      options: [
-        "Around 25 million",
-        "Over 80 million",
-        "Roughly 55.5 million",
-        "About 10 million"
-      ],
+        "After its latest equity raise, roughly how many months of preferred dividends and interest can Strategy cover using its USD reserve without selling Bitcoin?",
+      options: ["24 months", "18 months", "32 months", "48 months"],
       correctIndex: 2,
       explanation:
-        "The latest address data shows about 55.48 million wallets holding Bitcoin, up around 190,000 in two weeks and about 2.36 million since the start of 2025.",
-      sourceLabel: "#773 – Only up"
+        "Strategy’s USD Reserve now sits at about $2.19 billion, which TD Cowen noted is enough to cover roughly 32 months of preferred dividends and debt interest.",
+      sourceLabel: "#780 – Strategy addresses the FUD"
+    },
+    {
+      question:
+        "According to VanEck’s latest research, approximately how much Bitcoin do digital asset treasuries now hold in aggregate?",
+      options: ["2.0 million BTC", "750,000 BTC", "420,000 BTC", "1.09 million BTC"],
+      correctIndex: 3,
+      explanation:
+        "VanEck highlighted that digital asset treasuries added around 42,000 BTC recently, bringing total holdings to about 1.09 million BTC.",
+      sourceLabel: "#781 – Is this bullish?"
+    },
+    {
+      question:
+        "Roughly what percentage of the total Ethereum supply is currently locked in staking according to this week’s update?",
+      options: ["45%", "29.89%", "15%", "22%"],
+      correctIndex: 1,
+      explanation:
+        "The Christmas issue noted that about 36.07 million ETH are staked, which is 29.89 percent of the total supply, nearly one third of all ETH.",
+      sourceLabel: "#782 – Locked away"
+    },
+    {
+      question:
+        "Roughly how many Bitcoin addresses currently hold a balance greater than zero, based on the latest adoption snapshot?",
+      options: ["80 million", "25 million", "55.57 million", "40 million"],
+      correctIndex: 2,
+      explanation:
+        "The Only up section put the current count at about 55.57 million addresses holding some BTC, up roughly 2.45 million so far in 2025.",
+      sourceLabel: "#783 – Only up"
     }
   ]
 };
