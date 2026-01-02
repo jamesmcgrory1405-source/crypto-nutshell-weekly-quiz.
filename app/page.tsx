@@ -23,51 +23,51 @@ const CURRENT_QUIZ: Quiz = {
   questions: [
     {
       question:
-        "Roughly how much in net inflows did BlackRock’s IBIT Bitcoin ETF pull in during 2025 despite finishing the year with a negative return?",
-      options: ["$25.4 billion", "$18.7 billion", "$40.0 billion", "$10.2 billion"],
+        "Approximately how much ETH did BitMine just deposit into Ethereum's staking contracts as it kicked off its staking strategy?",
+      options: ["24,880 ETH", "44,880 ETH", "74,880 ETH", "104,880 ETH"],
+      correctIndex: 2,
+      explanation:
+        "BitMine deposited 74,880 ETH (worth about $227 million) into Ethereum’s staking contracts, the first step in turning its massive treasury into a yield-bearing position.",
+      sourceLabel: "#784 – It’s yield time"
+    },
+    {
+      question:
+        "After its latest 1,229 BTC purchase, about how many bitcoin does Strategy now hold on its balance sheet?",
+      options: ["672,497 BTC", "447,470 BTC", "225,027 BTC", "53,250 BTC"],
       correctIndex: 0,
       explanation:
-        "IBIT ranked sixth for all U.S. ETFs in 2025, pulling in about $25.4 billion of inflows even though it was down roughly 9.6 percent on the year.",
-      sourceLabel: "#779 – This is strange"
+        "Strategy’s most recent buy lifted its holdings to 672,497 BTC, cementing its position as the largest corporate Bitcoin holder by a wide margin.",
+      sourceLabel: "#785 – Strategy loads up"
     },
     {
       question:
-        "After its latest equity raise, roughly how many months of preferred dividends and interest can Strategy cover using its USD reserve without selling Bitcoin?",
-      options: ["24 months", "18 months", "32 months", "48 months"],
-      correctIndex: 2,
-      explanation:
-        "Strategy’s USD Reserve now sits at about $2.19 billion, which TD Cowen noted is enough to cover roughly 32 months of preferred dividends and debt interest.",
-      sourceLabel: "#780 – Strategy addresses the FUD"
-    },
-    {
-      question:
-        "According to VanEck’s latest research, approximately how much Bitcoin do digital asset treasuries now hold in aggregate?",
-      options: ["2.0 million BTC", "750,000 BTC", "420,000 BTC", "1.09 million BTC"],
+        "Over the most recent 30-day period, roughly how much BTC did long-term holders (LTHs) add, flipping back to net accumulation?",
+      options: ["3,300 BTC", "13,000 BTC", "23,000 BTC", "33,000 BTC"],
       correctIndex: 3,
       explanation:
-        "VanEck highlighted that digital asset treasuries added around 42,000 BTC recently, bringing total holdings to about 1.09 million BTC.",
-      sourceLabel: "#781 – Is this bullish?"
+        "Long-term holders added around 33,000 BTC on a 30-day basis, marking the first time since July that LTHs turned net accumulators instead of net sellers.",
+      sourceLabel: "#786 – It’s over?"
     },
     {
       question:
-        "Roughly what percentage of the total Ethereum supply is currently locked in staking according to this week’s update?",
-      options: ["45%", "29.89%", "15%", "22%"],
+        "Across 2025, approximately how much net inflow did spot Bitcoin ETFs attract, according to the year-in-data review?",
+      options: ["$9.8 billion", "$21.8 billion", "$35.4 billion", "$46.3 billion"],
       correctIndex: 1,
       explanation:
-        "The Christmas issue noted that about 36.07 million ETH are staked, which is 29.89 percent of the total supply, nearly one third of all ETH.",
-      sourceLabel: "#782 – Locked away"
+        "Spot Bitcoin ETFs pulled in about $21.8 billion of net inflows in 2025, down from $35.4 billion in 2024 but still a massive wall of institutional capital.",
+      sourceLabel: "#787 – How crypto changed in 2025"
     },
     {
       question:
-        "Roughly how many Bitcoin addresses currently hold a balance greater than zero, based on the latest adoption snapshot?",
-      options: ["80 million", "25 million", "55.57 million", "40 million"],
+        "According to Michael Saylor, roughly what percentage of Bitcoin is still held in the hands of hard-to-identify 'crypto OGs'?",
+      options: ["55%", "70%", "85%", "95%"],
       correctIndex: 2,
       explanation:
-        "The Only up section put the current count at about 55.57 million addresses holding some BTC, up roughly 2.45 million so far in 2025.",
-      sourceLabel: "#783 – Only up"
+        "Saylor said that about 85% of Bitcoin is still held in ‘crypto OG’ hands, meaning most supply sits with long-time holders rather than institutions.",
+      sourceLabel: "#788 – Why did Bitcoin underperform in 2025?"
     }
   ]
-};
+}
 
 type RankInfo = {
   label: string
