@@ -23,48 +23,58 @@ const CURRENT_QUIZ: Quiz = {
   questions: [
     {
       question:
-        "Approximately how much ETH did BitMine just deposit into Ethereum's staking contracts as it kicked off its staking strategy?",
-      options: ["24,880 ETH", "44,880 ETH", "74,880 ETH", "104,880 ETH"],
-      correctIndex: 2,
-      explanation:
-        "BitMine deposited 74,880 ETH (worth about $227 million) into Ethereum’s staking contracts, the first step in turning its massive treasury into a yield-bearing position.",
-      sourceLabel: "#784 – It’s yield time"
-    },
-    {
-      question:
-        "After its latest 1,229 BTC purchase, about how many bitcoin does Strategy now hold on its balance sheet?",
-      options: ["672,497 BTC", "447,470 BTC", "225,027 BTC", "53,250 BTC"],
-      correctIndex: 0,
-      explanation:
-        "Strategy’s most recent buy lifted its holdings to 672,497 BTC, cementing its position as the largest corporate Bitcoin holder by a wide margin.",
-      sourceLabel: "#785 – Strategy loads up"
-    },
-    {
-      question:
-        "Over the most recent 30-day period, roughly how much BTC did long-term holders (LTHs) add, flipping back to net accumulation?",
-      options: ["3,300 BTC", "13,000 BTC", "23,000 BTC", "33,000 BTC"],
-      correctIndex: 3,
-      explanation:
-        "Long-term holders added around 33,000 BTC on a 30-day basis, marking the first time since July that LTHs turned net accumulators instead of net sellers.",
-      sourceLabel: "#786 – It’s over?"
-    },
-    {
-      question:
-        "Across 2025, approximately how much net inflow did spot Bitcoin ETFs attract, according to the year-in-data review?",
-      options: ["$9.8 billion", "$21.8 billion", "$35.4 billion", "$46.3 billion"],
+        "Roughly what percentage of all Bitcoin is currently held by short-term holders (less than six months) according to the latest HODL Waves update?",
+      options: ["22%", "31.77%", "45%", "60%"],
       correctIndex: 1,
       explanation:
-        "Spot Bitcoin ETFs pulled in about $21.8 billion of net inflows in 2025, down from $35.4 billion in 2024 but still a massive wall of institutional capital.",
-      sourceLabel: "#787 – How crypto changed in 2025"
+        "Issue #789 noted that 31.77% of all Bitcoin is held by short-term holders, down from 35.08% two weeks earlier.",
+      sourceLabel: "#789 – Ageing up"
     },
     {
       question:
-        "According to Michael Saylor, roughly what percentage of Bitcoin is still held in the hands of hard-to-identify 'crypto OGs'?",
-      options: ["55%", "70%", "85%", "95%"],
+        "According to Bank of America’s new guidance, what digital asset allocation range did CIO Chris Hyzy say could be appropriate for some client portfolios?",
+      options: ["0.5% to 1%", "1% to 4%", "5% to 10%", "10% to 20%"],
+      correctIndex: 1,
+      explanation:
+        "In issue #790, Bank of America’s CIO Chris Hyzy said that for investors comfortable with volatility, a modest allocation of 1% to 4% in digital assets could be appropriate.",
+      sourceLabel: "#790 – Buy Bitcoin they say"
+    },
+    {
+      question:
+        "What did MSCI decide to do with Digital Asset Treasury (DAT) companies like Strategy in its February index review?",
+      options: [
+        "Immediately exclude all DATs from its indexes",
+        "Exclude only DATs with more than 75% of assets in digital assets",
+        "Keep the current treatment for now while continuing to study DATs",
+        "Limit DATs to a 1% maximum weight in any index"
+      ],
       correctIndex: 2,
       explanation:
-        "Saylor said that about 85% of Bitcoin is still held in ‘crypto OG’ hands, meaning most supply sits with long-time holders rather than institutions.",
-      sourceLabel: "#788 – Why did Bitcoin underperform in 2025?"
+        "Issue #791 reported that MSCI will, for the time being, keep the current index treatment for companies whose digital asset holdings are 50% or more of total assets, while it continues a broader review.",
+      sourceLabel: "#791 – Some good news"
+    },
+    {
+      question:
+        "What major change to its capital structure is BitMine asking shareholders to approve?",
+      options: [
+        "Reducing authorized shares from 500 million to 50 million",
+        "Increasing authorized shares from 500 million to 5 billion",
+        "Increasing authorized shares from 500 million to 50 billion",
+        "Authorizing only a single new class of preferred shares"
+      ],
+      correctIndex: 2,
+      explanation:
+        "In issue #792, BitMine proposed increasing its authorized share count from 500 million to 50 billion to give it maximum flexibility to raise capital and buy more ETH.",
+      sourceLabel: "#792 – Ethereum treasury expansion"
+    },
+    {
+      question:
+        "Roughly how many wallets now hold at least some Bitcoin according to the latest adoption update?",
+      options: ["25 million", "40 million", "57.75 million", "80 million"],
+      correctIndex: 2,
+      explanation:
+        "Issue #793 highlighted that there are now 57.75 million wallets holding Bitcoin, up about 100,000 in two weeks and 3.28 million since the start of 2025.",
+      sourceLabel: "#793 – Only up"
     }
   ]
 }
