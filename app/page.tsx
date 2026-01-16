@@ -23,58 +23,63 @@ const CURRENT_QUIZ: Quiz = {
   questions: [
     {
       question:
-        "Roughly what percentage of all Bitcoin is currently held by short-term holders (less than six months) according to the latest HODL Waves update?",
-      options: ["22%", "31.77%", "45%", "60%"],
-      correctIndex: 1,
-      explanation:
-        "Issue #789 noted that 31.77% of all Bitcoin is held by short-term holders, down from 35.08% two weeks earlier.",
-      sourceLabel: "#789 – Ageing up"
-    },
-    {
-      question:
-        "According to Bank of America’s new guidance, what digital asset allocation range did CIO Chris Hyzy say could be appropriate for some client portfolios?",
-      options: ["0.5% to 1%", "1% to 4%", "5% to 10%", "10% to 20%"],
-      correctIndex: 1,
-      explanation:
-        "In issue #790, Bank of America’s CIO Chris Hyzy said that for investors comfortable with volatility, a modest allocation of 1% to 4% in digital assets could be appropriate.",
-      sourceLabel: "#790 – Buy Bitcoin they say"
-    },
-    {
-      question:
-        "What did MSCI decide to do with Digital Asset Treasury (DAT) companies like Strategy in its February index review?",
+        "The DOJ’s new criminal investigation into Fed Chair Jerome Powell is focused primarily on what issue?",
       options: [
-        "Immediately exclude all DATs from its indexes",
-        "Exclude only DATs with more than 75% of assets in digital assets",
-        "Keep the current treatment for now while continuing to study DATs",
-        "Limit DATs to a 1% maximum weight in any index"
+        "The Fed’s $2.5 billion headquarters renovation project",
+        "Powell’s personal Bitcoin and crypto holdings",
+        "Leaking interest rate decisions to major banks ahead of time",
+        "Undisclosed political donations to presidential campaigns"
+      ],
+      correctIndex: 0,
+      explanation:
+        "Prosecutors are probing whether Jerome Powell misled Congress about the Fed’s $2.5 billion headquarters renovation, a move he says is a pretext to pressure the Fed over interest rate policy.",
+      sourceLabel: "#794 – Fed charged"
+    },
+    {
+      question:
+        "Standard Chartered now forecasts what approximate Ethereum price target for 2026 after cutting its near term expectations?",
+      options: ["$4,000", "$7,500", "$12,000", "$22,000"],
+      correctIndex: 1,
+      explanation:
+        "Standard Chartered cut its 2026 Ethereum target from $12,000 to about $7,500, while still calling 2026 the year of Ethereum thanks to stablecoins, RWAs, DeFi and scaling.",
+      sourceLabel: "#795 – The year of Ethereum"
+    },
+    {
+      question:
+        "Over the past year, by roughly how much has total stablecoin supply increased, despite a recent $2 billion dip over the last 14 days?",
+      options: [
+        "$7.6 billion",
+        "$26.6 billion",
+        "$56.6 billion",
+        "$76.6 billion"
+      ],
+      correctIndex: 3,
+      explanation:
+        "Stablecoin supply is up about $76.6 billion year over year, so the recent $2 billion pullback is just noise against a much larger build up of on chain dry powder.",
+      sourceLabel: "#796 – Zoom out"
+    },
+    {
+      question:
+        "On the day Bitcoin pushed back to $97,000, roughly how much in net inflows did U.S. spot Bitcoin ETFs attract?",
+      options: [
+        "$240.6 million",
+        "$480.6 million",
+        "$840.6 million",
+        "$1.24 billion"
       ],
       correctIndex: 2,
       explanation:
-        "Issue #791 reported that MSCI will, for the time being, keep the current index treatment for companies whose digital asset holdings are 50% or more of total assets, while it continues a broader review.",
-      sourceLabel: "#791 – Some good news"
+        "U.S. spot Bitcoin ETFs pulled in about $840.6 million in a single day, the strongest since October, helping drive BTC back toward the $100,000 level.",
+      sourceLabel: "#797 – Are we back?"
     },
     {
       question:
-        "What major change to its capital structure is BitMine asking shareholders to approve?",
-      options: [
-        "Reducing authorized shares from 500 million to 50 million",
-        "Increasing authorized shares from 500 million to 5 billion",
-        "Increasing authorized shares from 500 million to 50 billion",
-        "Authorizing only a single new class of preferred shares"
-      ],
-      correctIndex: 2,
+        "According to Cathie Wood’s 2026 outlook, how many Bitcoin does she think the U.S. could ultimately buy for a Strategic Reserve under Trump?",
+      options: ["100,000 BTC", "250,000 BTC", "500,000 BTC", "1,000,000 BTC"],
+      correctIndex: 3,
       explanation:
-        "In issue #792, BitMine proposed increasing its authorized share count from 500 million to 50 billion to give it maximum flexibility to raise capital and buy more ETH.",
-      sourceLabel: "#792 – Ethereum treasury expansion"
-    },
-    {
-      question:
-        "Roughly how many wallets now hold at least some Bitcoin according to the latest adoption update?",
-      options: ["25 million", "40 million", "57.75 million", "80 million"],
-      correctIndex: 2,
-      explanation:
-        "Issue #793 highlighted that there are now 57.75 million wallets holding Bitcoin, up about 100,000 in two weeks and 3.28 million since the start of 2025.",
-      sourceLabel: "#793 – Only up"
+        "Cathie Wood said the original intent was for the U.S. to own 1 million Bitcoin in a Strategic Reserve and argued the Trump administration may finally start buying to reach that goal.",
+      sourceLabel: "#798 – USA will buy 1 million Bitcoin"
     }
   ]
 }
