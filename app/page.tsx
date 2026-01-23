@@ -23,63 +23,48 @@ const CURRENT_QUIZ: Quiz = {
   questions: [
     {
       question:
-        "The DOJ’s new criminal investigation into Fed Chair Jerome Powell is focused primarily on what issue?",
-      options: [
-        "The Fed’s $2.5 billion headquarters renovation project",
-        "Powell’s personal Bitcoin and crypto holdings",
-        "Leaking interest rate decisions to major banks ahead of time",
-        "Undisclosed political donations to presidential campaigns"
-      ],
-      correctIndex: 0,
-      explanation:
-        "Prosecutors are probing whether Jerome Powell misled Congress about the Fed’s $2.5 billion headquarters renovation, a move he says is a pretext to pressure the Fed over interest rate policy.",
-      sourceLabel: "#794 – Fed charged"
-    },
-    {
-      question:
-        "Standard Chartered now forecasts what approximate Ethereum price target for 2026 after cutting its near term expectations?",
-      options: ["$4,000", "$7,500", "$12,000", "$22,000"],
+        "Roughly what percentage of all Bitcoin is currently held by short-term holders (coins held for less than six months), according to the latest HODL Waves breakdown?",
+      options: ["27.5%", "31.3%", "35.1%", "29.9%"],
       correctIndex: 1,
       explanation:
-        "Standard Chartered cut its 2026 Ethereum target from $12,000 to about $7,500, while still calling 2026 the year of Ethereum thanks to stablecoins, RWAs, DeFi and scaling.",
-      sourceLabel: "#795 – The year of Ethereum"
+        "Short-term holders control about 31.28% of Bitcoin supply, down from 31.77% two weeks ago, as coins quietly age into longer holding bands.",
+      sourceLabel: "#799 – More drama"
     },
     {
       question:
-        "Over the past year, by roughly how much has total stablecoin supply increased, despite a recent $2 billion dip over the last 14 days?",
-      options: [
-        "$7.6 billion",
-        "$26.6 billion",
-        "$56.6 billion",
-        "$76.6 billion"
-      ],
+        "Roughly how much money flowed into digital asset funds last week, marking the largest weekly inflow since just before the October 10 crash?",
+      options: ["$870 million", "$1.35 billion", "$3.05 billion", "$2.17 billion"],
       correctIndex: 3,
       explanation:
-        "Stablecoin supply is up about $76.6 billion year over year, so the recent $2 billion pullback is just noise against a much larger build up of on chain dry powder.",
-      sourceLabel: "#796 – Zoom out"
+        "Digital asset funds saw about $2.17 billion in net inflows, with Bitcoin taking the lion's share and Ethereum close behind, signalling that capital is starting to return in size.",
+      sourceLabel: "#800 – Back with a bang"
     },
     {
       question:
-        "On the day Bitcoin pushed back to $97,000, roughly how much in net inflows did U.S. spot Bitcoin ETFs attract?",
-      options: [
-        "$240.6 million",
-        "$480.6 million",
-        "$840.6 million",
-        "$1.24 billion"
-      ],
+        "During this week’s macro-driven pullback, how many bitcoin did Strategy buy for its balance sheet in its largest purchase in nine months?",
+      options: ["22,300 BTC", "8,500 BTC", "14,800 BTC", "35,000 BTC"],
+      correctIndex: 0,
+      explanation:
+        "Strategy stepped in and bought 22,300 BTC for roughly $2.1 billion, reinforcing that the biggest corporate holder is accumulating into weakness, not selling.",
+      sourceLabel: "#801 – Is it over?"
+    },
+    {
+      question:
+        "Roughly what percentage of the entire Ethereum supply is now locked in staking, according to the latest update?",
+      options: ["18%", "24%", "30%", "36%"],
       correctIndex: 2,
       explanation:
-        "U.S. spot Bitcoin ETFs pulled in about $840.6 million in a single day, the strongest since October, helping drive BTC back toward the $100,000 level.",
-      sourceLabel: "#797 – Are we back?"
+        "About 36.31 million ETH are staked, equal to roughly 30% of total supply, which tightens the liquid float and sets up stronger moves when demand returns.",
+      sourceLabel: "#802 – The setup"
     },
     {
       question:
-        "According to Cathie Wood’s 2026 outlook, how many Bitcoin does she think the U.S. could ultimately buy for a Strategic Reserve under Trump?",
-      options: ["100,000 BTC", "250,000 BTC", "500,000 BTC", "1,000,000 BTC"],
-      correctIndex: 3,
+        "Approximately how many wallets now hold at least some Bitcoin (a balance greater than zero), as reported in the latest on-chain section?",
+      options: ["42.5 million", "57.85 million", "64.2 million", "51.3 million"],
+      correctIndex: 1,
       explanation:
-        "Cathie Wood said the original intent was for the U.S. to own 1 million Bitcoin in a Strategic Reserve and argued the Trump administration may finally start buying to reach that goal.",
-      sourceLabel: "#798 – USA will buy 1 million Bitcoin"
+        "There are about 57.85 million wallets with a non-zero BTC balance, up another 100,000 in two weeks, showing that holder count keeps rising despite choppy price action.",
+      sourceLabel: "#803 – Only up"
     }
   ]
 }
